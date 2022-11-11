@@ -7,5 +7,5 @@
 ## Ejecución desde terminal
 ```
 $ mysql -u root -p
-$ source /home/dir/vehiculos.sql
+$ source /home/dir/vehiculos-sql/vehiculos.sql
 ```
