@@ -1,9 +1,9 @@
-DROP DATABASE IF EXISTS db;
+-- DROP DATABASE IF EXISTS db;
 
 CREATE DATABASE db;
 USE db;
 
-DROP TABLE IF EXISTS vehiculo;
+-- DROP TABLE IF EXISTS vehiculo;
 CREATE TABLE vehiculo (idVehiculo INTEGER NOT NULL, 
                        patente VARCHAR(10), 
                        anio YEAR,
@@ -12,15 +12,15 @@ CREATE TABLE vehiculo (idVehiculo INTEGER NOT NULL,
                        idModelo INTEGER NOT NULL
                        );
 
-DROP TABLE IF EXISTS marca;
+-- DROP TABLE IF EXISTS marca;
 CREATE TABLE marca (idMarca INTEGER NOT NULL, 
                     nombre VARCHAR(40));
 
-DROP TABLE IF EXISTS modelo;
+-- DROP TABLE IF EXISTS modelo;
 CREATE TABLE modelo (idModelo INTEGER NOT NULL, 
                      nombre VARCHAR(40));
 
-DROP TABLE IF EXISTS cliente;
+-- DROP TABLE IF EXISTS cliente;
 CREATE TABLE cliente (idCliente INTEGER NOT NULL,
                      nombre VARCHAR(40), 
                      apellido VARCHAR(40));
